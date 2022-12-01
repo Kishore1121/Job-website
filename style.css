@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa{
+    font-size: 3rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: red;
+}
+.nav-link{
+    color: rgb(10,10,94);
+}
+
+.nav-link:hover{
+    color:red;
+    transition: 0.3s;
+}
+
+.nav-item{
+    color: rgb(7,7,78);
+    font-weight: 800;
+    padding-left: 35px;
+}
+
+.btn0, .btn1{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: rgba(248, 85, 85);
+}
+
+.btn0:hover,.btn1:hover{
+    background-color: rgb(117, 9, 9);
+    transition: all 0.5s;
+}
+
+/* main section */
+
+.main{
+    background-image: url(./jobimgs/main1copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 95vh;
+}
+
+.main h1{
+    font-size: 7rem;
+    font-weight: 800;
+    color: rgb(4, 4, 60);
+}
+
+.main input{
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 25px;
+    margin-bottom: 5px;
+}
+
+.btn2{
+    width: 20%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(248, 85, 85) ;
+   margin-left: -4px;
+}
+
+.btn2:hover{
+    background-color:rgb(117, 9, 9);
+    transition: all 0.5s;
+}
+
+/* Second section */
+
+.red{
+    color: red;
+}
+
+.second h1{
+    font-size: 3.5rem;
+    color: rgb(4, 4, 60);
+}
+
+.second .card:hover{
+    color: red;
+    cursor: pointer;
+    box-shadow: -2px 2px 22px -11px rgba(0,0,0,0.75);
+}
+
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(198, 185, 185);
+    border-radius: 5px;
+    color: grey;
+    outline: none;
+    border: none;
+}
+.btn3:hover{
+    color: #000;
+    background-color: blue;
+    transition: all 0.5s;
+    border: none;
+    outline: none;
+}
+
+/* third section */
+.resume{
+    background-image:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)), url(./jobimgs/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.resume h1{
+    font-size: 3.8rem;
+}
+
+/* fourth section */
+
+.job h1{
+    font-size: 3.2rem;
+    color: rgb(4, 4, 60);
+}
+
+.btn4{
+    height: 60px;
+    width: 30%;
+    border: 1px solid rgb(150, 16, 16);
+    border-radius: 5px;
+    color: rgb(20, 115, 170);
+    outline: none;
+    border: none;
+}
+
+.btn4:hover{
+    color: #000;
+    background-color: rgb(189, 22, 103);
+    transition: all 0.5s;
+    border: none;
+    outline: none;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    min-height: 100px;
+    background-color: #484872;
+    padding: 10px 80px;
+    margin: 0;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    margin: 10px auto;
+}
